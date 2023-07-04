@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".presentation.activities.MainActivity">
+
+    <Button
+        android:id="@+id/additionButton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="75dp"
+        android:text="@string/addition"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/subtractionButton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/subtraction"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/multiplicationButton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/multiplication"
+        android:textSize="15sp" />
+</LinearLayout>
